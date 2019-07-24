@@ -1,0 +1,12 @@
+"What's the weather like as we approach the equator?"
+To answer that question, a Python script was created to visualize the weather of 500+ cities across the world of varying distance from the equator. A simple Python library, the OpenWeatherMap API were utilized to create a representative model of weather across world cities.
+A series of scatter plots were built to show the following relationships:
+Temperature (F) vs. Latitude
+Humidity (%) vs. Latitude
+Cloudiness (%) vs. Latitude
+Wind Speed (mph) vs. Latitude
+Based on the visualized results:
+•	Temperature (F) vs. Latitude scatter plot displays collaboration between increasing latitude and temperature as it gets closer to the equator and slow decrease of temperature farther away from the equator 
+•	Cloudiness (%) vs. Latitude scatter plot displays generally no significant changes as it gets closer to the equator
+•	Wind Speed (mph) vs. Latitude scatter plot reflects that the most cites have an average speed below 20 mph, and there a big number of cities that located below equator and their average speed 3-10 mph.
+
